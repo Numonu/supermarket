@@ -1,0 +1,59 @@
+.screen {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.wrapper {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/*<====================================================>*/
+.header {
+    padding: 1rem 0;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+/*<====================================================>*/
+.grid {
+    padding: 1rem 0;
+
+    display: grid;
+    grid-template-columns: .75fr 1fr 1fr;
+    gap: 1rem;
+    grid-template-areas:
+        "hero hero hero"
+        "aside main main";
+}
+
+.grid_hero {
+    grid-area: hero;
+
+    width: 100%;
+    aspect-ratio: 16/5;
+}
+
+.grid_aside {
+    grid-area: aside;
+}
+
+.grid_main {
+    grid-area: main;
+}
+
+/*<====================================================>*/
+@media screen and (max-width:900px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "hero"
+            "aside"
+            "main";
+    }
+}

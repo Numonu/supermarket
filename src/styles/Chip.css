@@ -1,0 +1,19 @@
+.chip{
+    min-width: 2.2rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    background-color: lightgray;
+
+    cursor: pointer;
+    transition: transform .2s ease;
+}
+.chip:hover{
+    background-color: black;
+    transform: translateY(-2px);
+}

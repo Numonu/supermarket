@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button , input , textarea{
+    font-family: inherit;
+    outline: none;
+    border: none;
+}
+ul , ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-family: "Futura PT" , sans-serif;
+    color: #202020;
+}

@@ -1,0 +1,25 @@
+.search{
+    width: 45%;
+    display: flex;
+
+    font-size: 1.2rem;
+    padding: .8rem 1rem;
+
+    background-color: rgb(240, 240, 240);
+    border-radius: .5rem;
+}
+.search_writespace{
+    flex: 1 1 0;
+    padding: 0 .5rem;
+    min-width: 0;
+
+    font-size: 1rem;
+
+    background-color: inherit;
+}
+.search_icon{
+    cursor: pointer;
+}
+.search_icon:hover{
+    color: purple;
+}

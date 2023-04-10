@@ -1,0 +1,19 @@
+.badge{
+    padding: .4rem 1rem;
+    
+    border: .1rem solid gray;
+    border-radius: .5rem;
+
+    background-color: transparent;
+    cursor: pointer;
+}
+.badge_title{
+    font-size: .9rem;
+    letter-spacing: .2ch;
+    text-transform: uppercase;
+}
+.badge:hover{
+    color: white;
+    background-color: black;
+    border-color: transparent;
+}

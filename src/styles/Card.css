@@ -1,0 +1,45 @@
+.card{
+    position: relative;
+    overflow: hidden;
+
+    height: 20rem;
+    border-radius: .5rem;
+
+    text-align: center;
+    color: white;
+
+    cursor: pointer;
+}
+
+
+.card_bg{
+    position: absolute;
+    inset: 0;
+
+    background-size: cover;
+    transition: transform .2s ease-in-out;
+}
+.card:hover > .card_bg{
+    transform: scale(1.1);
+}
+
+.card_about{
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    transition: transform .2s ease-out;
+}
+.card:hover > .card_about{
+    transform: translateX(-50%) translateY(-110%);
+}
+
+
+.card_message{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.card_icon{
+    font-size: 1rem;
+}
