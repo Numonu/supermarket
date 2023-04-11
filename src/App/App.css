@@ -45,7 +45,6 @@
 .grid_main {
     grid-area: main;
 }
-
 /*<===============================================>*/
 @media screen and (min-width:1500px) {
     html{
