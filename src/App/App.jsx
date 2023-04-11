@@ -37,7 +37,7 @@ export function App() {
 					</div>
 					<div className="grid_aside">
 						<Fluid
-							config={{ flexDirection: "column", gap: ".5rem" }}
+							config={{ flexDirection: "column", gap: ".5rem"}}
 						>
 							<Category
 								title="frutas"
@@ -69,7 +69,7 @@ export function App() {
 						<Fluid config={{ flexDirection: "column" }}>
 							<Brand title="Products" />
 							<Line />
-							<Fluid config={{ justifyContent: "flex-start" }}>
+							<Fluid config={{ justifyContent: "flex-start" , margin : "0"}}>
 								<Badge title="New" />
 								<Badge title="Offer" />
 								<Badge title="Selled" />
