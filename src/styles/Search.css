@@ -23,3 +23,9 @@
 .search_icon:hover{
     color: purple;
 }
+@media screen and (max-width : 1100px) {
+    .search{
+        margin: 0 auto;
+        flex: 1 1 100%;
+    }
+}

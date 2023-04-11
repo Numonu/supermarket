@@ -1,6 +1,7 @@
 .screen {
     width: 100vw;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -34,9 +35,7 @@
 
 .grid_hero {
     grid-area: hero;
-
     width: 100%;
-    aspect-ratio: 16/5;
 }
 
 .grid_aside {
@@ -47,13 +46,37 @@
     grid-area: main;
 }
 
-/*<====================================================>*/
-@media screen and (max-width:900px) {
+/*<===============================================>*/
+@media screen and (min-width:1500px) {
+    html{
+        font-size: 18px;
+    }
+    .wrapper{
+        max-width: 1500px;
+    }
+}
+/*<===============================================>*/
+@media screen and (max-width:1100px) {
     .grid {
         grid-template-columns: 1fr;
         grid-template-areas:
             "hero"
             "aside"
             "main";
+    }
+}
+@media screen and (max-width:900px) {
+    html{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:900px) {
+    html{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:500px) {
+    html{
+        font-size: 12px;
     }
 }

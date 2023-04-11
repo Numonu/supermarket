@@ -5,6 +5,7 @@ export function Fluid({ children, config }) {
 		flexDirection: "row",
 		flexWrap: "wrap",
 		gap: "1rem",
+		margin : "0 auto"
 	};
 
 	if (config) {

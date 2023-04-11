@@ -6,6 +6,8 @@
 
     background-color: transparent;
     cursor: pointer;
+
+    transition: transform .2s linear;
 }
 .badge_title{
     font-size: .9rem;
@@ -14,6 +16,9 @@
 }
 .badge:hover{
     color: white;
+
     background-color: black;
     border-color: transparent;
+
+    transform: translateY(-3px);
 }

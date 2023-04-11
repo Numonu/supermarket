@@ -8,8 +8,8 @@ import { Line } from "../components/Line";
 import { Search } from "../components/Search";
 import { Fluid } from "../layout/Fluid";
 import { Grid } from "../layout/Grid";
-import "./App.css";
 import data from "../database/products.json";
+import "./App.css";
 
 export function App() {
 	return (

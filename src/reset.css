@@ -18,4 +18,5 @@ a{
 body{
     font-family: "Futura PT" , sans-serif;
     color: #202020;
+    overflow-x: hidden;
 }
